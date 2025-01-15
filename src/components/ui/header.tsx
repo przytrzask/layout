@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input";
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full  bg-black px-4">
+    <header className=" top-0 z-50 w-full  bg-black px-4">
       <div className="flex h-16 items-center justify-between">
         <div className="flex flex-1 items-center gap-4">
           <div className="relative w-96">
