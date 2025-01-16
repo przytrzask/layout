@@ -7,7 +7,7 @@ import { Tabs } from "./tabs";
 
 export function AppSidebar() {
   return (
-    <div className="flex bg-black w-64 min-h-[calc(100vh-4rem)] p-6 z-10">
+    <div className="flex bg-zinc-800 w-64 h-[100vh] p-6 z-10 sticky top-0">
       <Tabs>
         <TabsDemo />
         {/* <SidebarContent className="flex flex-col">

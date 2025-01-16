@@ -12,17 +12,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="bg-black">
-      <body className="">
+      <body className="bg-black">
         <SidebarProvider>
           <div className="flex flex-col flex-1">
             <Header />
             <div className="flex">
               <AppSidebar />
-              <main className="flex-1 relative ">
+              <main className="flex-1 relative bg-white">
                 {/* Frame Wrapper */}
                 {/* SVG for the frame */}
                 <svg
-                  className="fixed left-[188px] w-[calc(100%-130px)] top-0 h-full pointer-events-none"
+                  className="fixed left-[180px] w-[calc(100%-130px)] top-0 h-[103%] pointer-events-none"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 100 100"
                   preserveAspectRatio="none"
